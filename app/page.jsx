@@ -15,7 +15,7 @@ The card below is rendered on the server based on the value of \`process.env.CON
 `;
 
 const preDynamicContentExplainer = `
-The card content below is fetched by the client-side from \`/quotes/random\` (see file \`app/quotes/random/route.js\`) with a different quote shown on each page load:
+The card content BELOW is fetched by the client-side from \`/quotes/random\` (see file \`app/quotes/random/route.js\`) with a different quote shown on each page load:
 `;
 
 const postDynamicContentExplainer = `
@@ -31,28 +31,13 @@ export default function Page() {
     return (
         <main className="flex flex-col gap-8 sm:gap-16">
             <section className="flex flex-col items-start gap-3 sm:gap-4">
-                <ContextAlert />
-                <h1 className="mb-0">Netlify Platform Starter - Next.js</h1>
-                <p className="text-lg">Get started with Next.js and Netlify in seconds.</p>
-                <Link
-                    href="https://docs.netlify.com/frameworks/next-js/overview/"
-                    className="btn btn-lg btn-primary sm:btn-wide"
-                >
-                    Read the Docs
-                </Link>
+                <h1 className="mb-0">Tom Kelleher Consulting, Inc.</h1>
+                <p className="text-lg">Bespoke Architecture and Development, Consulting, and Project Management.</p>
             </section>
-            {!!ctx && (
-                <section className="flex flex-col gap-4">
-                    <Markdown content={contextExplainer} />
-                    <RuntimeContextCard />
-                </section>
-            )}
+
             <section className="flex flex-col gap-4">
-                <Markdown content={preDynamicContentExplainer} />
-                <RandomQuote />
-                <Markdown content={postDynamicContentExplainer} />
+                This site is under renovation.  
             </section>
-            {/* !!cards?.length && <CardsGrid cards={cards} /> */}
         </main>
     );
 }
