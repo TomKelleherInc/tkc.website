@@ -32,7 +32,7 @@ export default function Page() {
         <main className="flex flex-col gap-8 sm:gap-16">
             <section className="flex flex-col items-start gap-3 sm:gap-4">
                 <h1 className="mb-0">Tom Kelleher Consulting, Inc.</h1>
-                <p className="text-lg">Bespoke Architecture and Development, Consulting, and Project Management.</p>
+                <p className="text-lg">Bespoke Software Architecture and Development, Consulting, and Project Management.</p>
             </section>
 
             <section className="flex flex-col gap-4">
