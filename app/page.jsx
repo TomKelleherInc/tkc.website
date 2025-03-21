@@ -36,7 +36,11 @@ export default function Page() {
             </section>
 
             <section className="flex flex-col gap-4">
-                This site is under renovation.  
+                This site is plainly very much under renovation! 
+            </section>
+
+            <section className="flex flex-col gap-4">
+                Reach me at 973.650.0258 and kelleher@tkelleher.com.
             </section>
         </main>
     );
